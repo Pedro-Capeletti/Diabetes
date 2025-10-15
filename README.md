@@ -4,10 +4,10 @@ Conjunto de datos de indicadores de salud de la diabetes.
 
 ## Instalación
    1. Clone el siguiente repositorio.
-   
-``` https://github.com/Pedro-Capeletti/Diabetes.git ```
+   ```bash
+      https://github.com/Pedro-Capeletti/Diabetes.git ```
 
-   2. Cargar en su motor de base de datos el script o archivo SQL.
+   3. Cargar en su motor de base de datos el script o archivo SQL.
 
 ## Diagrama de Entidad - Relación
 Este es el diagrama de Entidad Relación de la base de datos finalizado el proyecto:
