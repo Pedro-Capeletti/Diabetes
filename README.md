@@ -23,7 +23,9 @@ El trabajo se centró en:
 
 A continuación se presenta el **Diagrama de Entidad–Relación (DER)** que representa la estructura final de la base de datos una vez normalizada.
 
-> 📸 *(INSERTAR IMAGEN DEL DIAGRAMA AQUÍ)*
+> 📸
+>
+<img width="701" height="782" alt="image" src="https://github.com/user-attachments/assets/a399bf04-b1a9-4777-95b6-c9ac45f8b87b" />
 
 El diagrama muestra las entidades principales, sus atributos y las relaciones entre ellas, asegurando **integridad referencial** y evitando **redundancia de datos**.
 
