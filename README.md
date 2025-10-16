@@ -1,8 +1,6 @@
 # 🩺 Base de Datos “Diabetes”
 **📎 Enlace al Dataset**
 
-El conjunto de datos original utilizado puede encontrarse en el siguiente enlace:
-
 https://www.kaggle.com/datasets/mohankrishnathalla/diabetes-health-indicators-dataset
 
 ---
