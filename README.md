@@ -92,6 +92,15 @@ WHERE resultado_diagnostico = 'Positivo';
 🖼️ (INSERTAR CONSULTAS)
 <img width="759" height="103" alt="image" src="https://github.com/user-attachments/assets/ab438b1d-06d5-4801-84b8-b8915ea38ee0" />
 
+<img width="770" height="52" alt="image" src="https://github.com/user-attachments/assets/7301acb6-b69b-476d-b591-54f06fb5abf8" />
+
+<img width="767" height="83" alt="image" src="https://github.com/user-attachments/assets/d7b6ebc3-ebe9-4065-aced-eabb477d6d0c" />
+
+<img width="770" height="98" alt="image" src="https://github.com/user-attachments/assets/05e46163-bdb6-43fd-8b6c-b62fb34d206b" />
+
+
+
+
 ---
 
 📊 Consultas SQL Realizadas
