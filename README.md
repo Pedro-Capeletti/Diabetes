@@ -77,15 +77,7 @@ IGNORE 1 ROWS;
 
 🖼️ (INSERTAR IMAGEN DE LA CARGA DE DATOS)
 ---
-### 5️⃣ Creación de vistas y consultas
-
-Con la base de datos completa y funcional, se generaron vistas y consultas SQL para analizar los datos y obtener resultados significativos.
-
-Ejemplo:
-
-<img width="767" height="240" alt="image" src="https://github.com/user-attachments/assets/24227e7c-cd50-4d65-8a91-44126c325a27" />
-
-🖼️ (INSERTAR CONSULTAS)
+### 5️⃣ Consultas
 
 <img width="759" height="103" alt="image" src="https://github.com/user-attachments/assets/ab438b1d-06d5-4801-84b8-b8915ea38ee0" />
 
@@ -110,17 +102,6 @@ Ejemplo:
 <img width="763" height="108" alt="image" src="https://github.com/user-attachments/assets/ec919a65-0f67-44d8-919e-df31eec96ac3" />
 
 <img width="763" height="110" alt="image" src="https://github.com/user-attachments/assets/dc4b58bb-b538-46d5-a39a-09dc850b84e2" />
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 
