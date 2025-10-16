@@ -99,7 +99,8 @@ Cada tabla se definió con su clave primaria (PRIMARY KEY) y, en los casos neces
 
 **TABLA Hábitos de Vida**
 
-<img width="761" height="250" alt="image" src="https://github.com/user-attachments/assets/f8bfa76d-3d1e-43c2-ad41-91357134bf73" />
+<img width="621" height="249" alt="image" src="https://github.com/user-attachments/assets/361b125a-9bb0-4424-a5f8-e890ee548e9d" />
+
 
 **RELACIONES DE CATÁLOGO CON PACIENTES**
 
@@ -155,26 +156,21 @@ IGNORE 1 ROWS;
 
 <img width="773" height="124" alt="image" src="https://github.com/user-attachments/assets/d5b130d9-3635-4c19-9855-cbb13b3d653c" />
 
-
 **8. Promedio de horas de sueño por género.**
 
 <img width="769" height="131" alt="image" src="https://github.com/user-attachments/assets/573420a1-6093-4067-857b-5b7d450f21ad" />
 
-
 **9. Mostrar el total de pacientes según su nivel educativo.**
 
-<img width="767" height="135" alt="image" src="https://github.com/user-attachments/assets/fe06e0eb-726d-4cf1-81a0-519b6efee28c" />
-
+<img width="621" height="126" alt="image" src="https://github.com/user-attachments/assets/8c7d871e-c0a2-4ada-8a68-de6b011ba94d" />
 
 **10. Identificar los pacientes con antecedentes familiares de diabetes.**
 
 <img width="771" height="109" alt="image" src="https://github.com/user-attachments/assets/250f06f8-67b4-4c89-883a-2bb1eb0fe1d5" />
 
-
 **11. Pacientes con colesterol > 200 y triglicéridos > 150.**
 
 <img width="763" height="108" alt="image" src="https://github.com/user-attachments/assets/ec919a65-0f67-44d8-919e-df31eec96ac3" />
-
 
 **12. Mostrar los pacientes, por provincia y ciudad.**
 
