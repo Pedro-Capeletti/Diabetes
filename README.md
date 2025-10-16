@@ -89,7 +89,78 @@ FROM pacientes
 WHERE resultado_diagnostico = 'Positivo';
 
 
-🖼️ (INSERTAR IMAGEN O LISTADO DE CONSULTAS AQUÍ)
+🖼️ -- 1️⃣ Listar los primeros 10 pacientes con su nombre completo y fecha de nacimiento
+SELECT id_patient, CONCAT(first_name, ' ', last_name) AS nombre_completo, birth_date
+FROM pacientes
+ORDER BY birth_date DESC
+LIMIT 10;
+
+-- 2️⃣ Mostrar el promedio de IMC (BMI) de todos los pacientes
+SELECT ROUND(AVG(bmi), 2) AS promedio_bmi
+FROM mediciones_fisicas;
+
+-- 3️⃣ Contar cuántos pacientes hay por género
+SELECT gender, COUNT(*) AS cantidad
+FROM pacientes
+GROUP BY gender;
+
+-- 4️⃣ Obtener los pacientes diagnosticados con diabetes tipo 2
+SELECT p.id_patient, p.first_name, p.last_name, d.diagnosis_type, d.diagnosis_date
+FROM diagnostico_diabetes d
+JOIN pacientes p ON p.id_patient = d.patient_id
+WHERE d.diagnosis_type LIKE '%tipo 2%';
+
+-- 5️⃣ Promedio de nivel de glucosa por tipo de diagnóstico
+SELECT d.diagnosis_type, ROUND(AVG(e.glucose_level), 2) AS promedio_glucosa
+FROM diagnostico_diabetes d
+JOIN examenes_laboratorio e ON e.patient_id = d.patient_id
+GROUP BY d.diagnosis_type;
+
+-- 6️⃣ Pacientes con presión arterial alta (>140/90)
+SELECT p.first_name, p.last_name, m.blood_pressure
+FROM mediciones_fisicas m
+JOIN pacientes p ON p.id_patient = m.patient_id
+WHERE CAST(SUBSTRING_INDEX(m.blood_pressure, '/', 1) AS UNSIGNED) > 140
+   OR CAST(SUBSTRING_INDEX(m.blood_pressure, '/', -1) AS UNSIGNED) > 90;
+
+-- 7️⃣ Pacientes que fuman y consumen alcohol semanalmente
+SELECT p.first_name, p.last_name, h.smoking, h.alcohol
+FROM habitos_vida h
+JOIN pacientes p ON p.id_patient = h.patient_id
+WHERE h.smoking IN ('Sí', 'smoker', '1')
+  AND h.alcohol NOT LIKE '0%';
+
+-- 8️⃣ Promedio de horas de sueño por género
+SELECT p.gender, ROUND(AVG(h.sleep_hours), 2) AS promedio_sueño
+FROM habitos_vida h
+JOIN pacientes p ON p.id_patient = h.patient_id
+GROUP BY p.gender;
+
+-- 9️⃣ Número de pacientes por nivel educativo
+SELECT ce.education_level, COUNT(p.id_patient) AS cantidad_pacientes
+FROM pacientes p
+JOIN catalogo_educacion ce ON ce.id_education = p.education_id
+GROUP BY ce.education_level
+ORDER BY cantidad_pacientes DESC;
+
+-- 🔟 Mostrar pacientes con antecedentes familiares de diabetes
+SELECT p.first_name, p.last_name, h.family_history
+FROM historial_medico h
+JOIN pacientes p ON p.id_patient = h.patient_id
+WHERE h.family_history LIKE '%diabetes%';
+
+-- 11️⃣ Pacientes con colesterol > 200 y triglicéridos > 150
+SELECT p.first_name, p.last_name, e.cholesterol_level, e.triglycerides_level
+FROM examenes_laboratorio e
+JOIN pacientes p ON p.id_patient = e.patient_id
+WHERE e.cholesterol_level > 200 AND e.triglycerides_level > 150;
+
+-- 12️⃣ Mostrar los pacientes, su provincia y ciudad
+SELECT p.first_name, p.last_name, u.province, u.city
+FROM pacientes p
+JOIN ubicacion_demografica u ON u.id_location = p.location_id
+ORDER BY u.province, u.city;
+
 ---
 📊 Consultas SQL Realizadas
 
