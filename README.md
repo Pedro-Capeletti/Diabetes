@@ -62,43 +62,52 @@ A partir del análisis de los datos, se diseñaron las tablas necesarias para re
 Cada tabla se definió con su clave primaria (PRIMARY KEY) y, en los casos necesarios, claves foráneas (FOREIGN KEY) para mantener la integridad referencial.
 
 ** TABLA PRINCIPAL: Pacientes**
+
 <img width="766" height="319" alt="image" src="https://github.com/user-attachments/assets/30a80644-52c3-42a4-837b-9d5a66be7a11" />
 
 **TABLA Catálogo de Educación**
+
 <img width="765" height="107" alt="image" src="https://github.com/user-attachments/assets/7acae166-c54f-437d-9ab3-e74d719ef817" />
 
 **TABLA Catálogo de Etinias**
+
 <img width="764" height="131" alt="image" src="https://github.com/user-attachments/assets/588020be-646c-4e97-a005-5ebab29e8eb8" />
 
 **TABLA Catálogos de Ingresos**
+
 <img width="766" height="107" alt="image" src="https://github.com/user-attachments/assets/b434a75d-24e5-4a75-9921-d8d0894731b1" />
 
 **TABLA Ubicación Demográfica**
+
 <img width="762" height="234" alt="image" src="https://github.com/user-attachments/assets/32ba5f3e-87b4-41c3-9bb4-572821095703" />
 
 **TABLA Madiciones Físicas**
+
 <img width="766" height="277" alt="image" src="https://github.com/user-attachments/assets/4e8267ac-52a8-433a-9714-fcc1b184469a" />
 
 **TABLA Historial Médico**
+
 <img width="761" height="226" alt="image" src="https://github.com/user-attachments/assets/8217d2cd-efc3-4539-b5d5-37ac7c7dd118" />
 
 **TABLA Diagnóstico de Diabetes**
+
 <img width="766" height="236" alt="image" src="https://github.com/user-attachments/assets/2b225fbb-3b0a-4258-b4e4-41b571579974" />
 
 **TABLA Exámenes de Laboratorio**
+
 <img width="764" height="255" alt="image" src="https://github.com/user-attachments/assets/01a6c07f-9f5f-40c7-83bb-42f1ac5ebe8e" />
 
 **TABLA Hábitos de Vida**
+
 <img width="761" height="250" alt="image" src="https://github.com/user-attachments/assets/f8bfa76d-3d1e-43c2-ad41-91357134bf73" />
 
 **RELACIONES DE CATÁLOGO CON PACIENTES**
+
 <img width="768" height="224" alt="image" src="https://github.com/user-attachments/assets/1aba40f2-dc75-415b-91e5-3b3fea24c26c" />
 
-
-
 ---
-### 4️⃣ Carga de datos desde el archivo CSV
 
+### 4️⃣ Carga de datos desde el archivo CSV
 Una vez creadas las tablas, se procedió a la carga de los datos utilizando el comando:
 
 LOAD DATA LOCAL INFILE 'ruta/diabetes_dataset.csv'
