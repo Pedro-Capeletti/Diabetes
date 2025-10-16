@@ -1,7 +1,8 @@
 # 🩺 Base de Datos “Diabetes”
-📎 Enlace al Dataset
+**📎 Enlace al Dataset**
 
 El conjunto de datos original utilizado puede encontrarse en el siguiente enlace:
+
 (INSERTAR LINK AL DATASET AQUÍ)
 
 ---
@@ -9,9 +10,7 @@ El conjunto de datos original utilizado puede encontrarse en el siguiente enlace
 ## 📘 Descripción
 
 Este proyecto fue desarrollado con el objetivo de **aprender y aplicar procesos de normalización de datos** provenientes de un archivo en formato **CSV**.
-
 El conjunto de datos utilizado contiene **indicadores de salud relacionados con la diabetes**, incluyendo información sobre características demográficas, hábitos, antecedentes médicos y resultados de diagnóstico.
-
 El trabajo se centró en:
 
 - Analizar la estructura del dataset original.  
