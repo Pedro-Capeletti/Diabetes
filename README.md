@@ -83,6 +83,7 @@ Con la base de datos completa y funcional, se generaron vistas y consultas SQL p
 
 Ejemplo:
 
+
 CREATE VIEW vista_pacientes_diagnostico AS
 SELECT paciente_id, edad, glucosa, presion_sanguinea, resultado_diagnostico
 FROM pacientes
