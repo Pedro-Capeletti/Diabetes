@@ -79,28 +79,40 @@ IGNORE 1 ROWS;
 ---
 ### 5️⃣ Consultas
 
+1. Mostrar la lista de los primeros 10 pacientes con su nombre completo y fecha de nacimiento.
 <img width="759" height="103" alt="image" src="https://github.com/user-attachments/assets/ab438b1d-06d5-4801-84b8-b8915ea38ee0" />
 
+2. Mostrar el promedio de IMC (BMI) de todos los pacientes.
 <img width="770" height="52" alt="image" src="https://github.com/user-attachments/assets/7301acb6-b69b-476d-b591-54f06fb5abf8" />
 
+3. Contar cuántos pacientes hay por género.
 <img width="767" height="83" alt="image" src="https://github.com/user-attachments/assets/d7b6ebc3-ebe9-4065-aced-eabb477d6d0c" />
 
+4. Obtener los pacientes diagnosticados con diabetes tipo 2.
 <img width="770" height="98" alt="image" src="https://github.com/user-attachments/assets/05e46163-bdb6-43fd-8b6c-b62fb34d206b" />
 
+5. Promedio de nivel de glucosa por tipo de diagnóstico.
 <img width="765" height="113" alt="image" src="https://github.com/user-attachments/assets/0c2687e9-befa-4466-9f95-629653f3e55f" />
 
+6. Ver los pacientes con presión arterial alta (>140/90)
 <img width="757" height="130" alt="image" src="https://github.com/user-attachments/assets/93c04945-2650-44b9-95ef-1423c96f7a66" />
 
+7. Identificar los pacientes que fuman y consumen alcohol semanalmente.
 <img width="773" height="124" alt="image" src="https://github.com/user-attachments/assets/d5b130d9-3635-4c19-9855-cbb13b3d653c" />
 
+8. Promedio de horas de sueño por género.
 <img width="769" height="131" alt="image" src="https://github.com/user-attachments/assets/573420a1-6093-4067-857b-5b7d450f21ad" />
 
+9. Mostrar el total de pacientes según su nivel educativo.
 <img width="767" height="135" alt="image" src="https://github.com/user-attachments/assets/fe06e0eb-726d-4cf1-81a0-519b6efee28c" />
 
+10. Identificar los pacientes con antecedentes familiares de diabetes.
 <img width="771" height="109" alt="image" src="https://github.com/user-attachments/assets/250f06f8-67b4-4c89-883a-2bb1eb0fe1d5" />
 
+11. Pacientes con colesterol > 200 y triglicéridos > 150.
 <img width="763" height="108" alt="image" src="https://github.com/user-attachments/assets/ec919a65-0f67-44d8-919e-df31eec96ac3" />
 
+12. Mostrar los pacientes, por provincia y ciudad.
 <img width="763" height="110" alt="image" src="https://github.com/user-attachments/assets/dc4b58bb-b538-46d5-a39a-09dc850b84e2" />
 
 ---
