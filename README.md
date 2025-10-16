@@ -3,7 +3,7 @@
 
 El conjunto de datos original utilizado puede encontrarse en el siguiente enlace:
 
-(INSERTAR LINK AL DATASET AQUÍ)
+https://www.kaggle.com/datasets/mohankrishnathalla/diabetes-health-indicators-dataset
 
 ---
 
