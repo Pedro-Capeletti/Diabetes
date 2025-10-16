@@ -83,12 +83,7 @@ Con la base de datos completa y funcional, se generaron vistas y consultas SQL p
 
 Ejemplo:
 
-
-CREATE VIEW vista_pacientes_diagnostico AS
-SELECT paciente_id, edad, glucosa, presion_sanguinea, resultado_diagnostico
-FROM pacientes
-WHERE resultado_diagnostico = 'Positivo';
-
+<img width="767" height="240" alt="image" src="https://github.com/user-attachments/assets/24227e7c-cd50-4d65-8a91-44126c325a27" />
 
 🖼️ (INSERTAR CONSULTAS)
 <img width="759" height="103" alt="image" src="https://github.com/user-attachments/assets/ab438b1d-06d5-4801-84b8-b8915ea38ee0" />
