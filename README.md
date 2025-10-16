@@ -85,7 +85,7 @@ Cada tabla se definió con su clave primaria (PRIMARY KEY) y, en los casos neces
 **TABLA Diagnóstico de Diabetes**
 <img width="766" height="236" alt="image" src="https://github.com/user-attachments/assets/2b225fbb-3b0a-4258-b4e4-41b571579974" />
 
-**TABLA Examenes de Laboratorio**
+**TABLA Exámenes de Laboratorio**
 <img width="764" height="255" alt="image" src="https://github.com/user-attachments/assets/01a6c07f-9f5f-40c7-83bb-42f1ac5ebe8e" />
 
 **TABLA Hábitos de Vida**
