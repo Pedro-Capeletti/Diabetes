@@ -98,6 +98,9 @@ WHERE resultado_diagnostico = 'Positivo';
 
 <img width="770" height="98" alt="image" src="https://github.com/user-attachments/assets/05e46163-bdb6-43fd-8b6c-b62fb34d206b" />
 
+<img width="765" height="113" alt="image" src="https://github.com/user-attachments/assets/0c2687e9-befa-4466-9f95-629653f3e55f" />
+
+
 
 
 
