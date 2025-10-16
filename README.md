@@ -86,6 +86,7 @@ Ejemplo:
 <img width="767" height="240" alt="image" src="https://github.com/user-attachments/assets/24227e7c-cd50-4d65-8a91-44126c325a27" />
 
 🖼️ (INSERTAR CONSULTAS)
+
 <img width="759" height="103" alt="image" src="https://github.com/user-attachments/assets/ab438b1d-06d5-4801-84b8-b8915ea38ee0" />
 
 <img width="770" height="52" alt="image" src="https://github.com/user-attachments/assets/7301acb6-b69b-476d-b591-54f06fb5abf8" />
